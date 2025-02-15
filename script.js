@@ -1,6 +1,9 @@
 const userInput = document.getElementById('user-input');
 const terminalBody = document.querySelector('.terminal-body');
 
+// Focus the input element on page load
+userInput.focus();
+
 const commands = {
     help: "Available commands: help, about, secret, clear",
     about: "This is a hacking-themed folder website.",
