@@ -43,13 +43,14 @@ body {
     line-height: 1.5;
 }
 
-#user-input {
+
+.user-input {
     display: inline-block;
     min-width: 10px;
     border-bottom: 2px solid #0f0;
     animation: blink 1s infinite;
+    outline: none; /* Remove default focus outline */
 }
-
 @keyframes blink {
     0%, 50% { opacity: 0; }
     51%, 100% { opacity: 1; }
